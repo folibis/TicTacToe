@@ -97,6 +97,7 @@ int main(int argc, char *argv[])
 
     if(init_server() == Ok)
     {
+        printf("Press Ctrl-C to terminate\n");
         return run_server(address, port, address_zmq, port_zmq) == Ok ? 0 : 1;
     }
 
