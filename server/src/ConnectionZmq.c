@@ -95,7 +95,7 @@ void* thread_routine(void *arg)
 
 result_t write_connection_zmq(char *data, int len)
 {
-    if(zmq_send(requester, data, len, 0) != 0)
+    if(zmq_send(requester, data, len, 0) == (-1))
     {
         printf("failed to send to zmq server: %s\n", strerror(errno));
         return Failed;
