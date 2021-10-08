@@ -28,6 +28,7 @@ set(BUILD_TESTS OFF CACHE BOOL "")
 set(ENABLE_WS OFF CACHE BOOL "")
 set(WITH_TLS OFF CACHE BOOL "")
 set(WITH_LIBSODIUM OFF CACHE BOOL "")
+set(WITH_PERF_TOOL OFF CACHE BOOL "")
 add_subdirectory(external/libzmq)
 target_link_libraries(${PROJECT_NAME} PRIVATE libzmq)
 target_include_directories(${PROJECT_NAME} PUBLIC
