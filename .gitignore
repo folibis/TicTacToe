@@ -1,2 +1,4 @@
 bin/*
-external/*
+server/external/*
+.build/*
+**/**.user
