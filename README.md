@@ -1,8 +1,13 @@
 # TicTacToe
 TicTacToe game implementation
 
-## How to build and run the game ##
+The game workflow is as following:
 
+![The game workflow](/scheme.png)
+
+**Note**: _The game is require both Linux and Windows machines_
+
+## How to build and run the game ##
 
 #### 1. Requirements. ####
 * Linux (Ubuntu >= 18.04 is preferable)
@@ -12,7 +17,7 @@ TicTacToe game implementation
 * build essential tools
 
 #### 1. Downoading. ####
-**Note**: _The game is require both Linux and Windows machines_
+
 ##### Linux #####
 Enter a folder in your system when you want to build the game and clone the GitHub repository, for example:
 ```bash
@@ -26,9 +31,7 @@ cd C:/sources
 git clone git@github.com:folibis/TicTacToe.git 
 ```
 
-
 #### 2. Building. ####
-**Note**: _The game is require both Linux and Windows machines_
 
 ##### Linux #####
 enter the downloaded folder and buil the applications:
@@ -47,7 +50,7 @@ pip install pyzmq
 ```
 
 #### 3. Running the game. ####
-**Note**: _The game is require both Linux and Windows machines_
+
 ##### Windows #####
 * run the judge module:
 ```bash
@@ -82,7 +85,7 @@ where:
  run the client
 ```bash
 cd /path/to/source/bin/
-#run the server
+#run the client (not more the 2 clients)
 ./client
 ```
 Use the following options for configuration:
@@ -94,7 +97,7 @@ where:
   -h - prints this help
 ```
 
-#### 3. Playing the game. ####
-Follow the game instruction to play the game
+#### 4. Playing the game. ####
+Follow the in-game instruction to play the game
 
 
